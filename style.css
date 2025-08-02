@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  scroll-behavior: smooth;
+}
+header {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.highlight {
+  color: yellow;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background: #222;
+  gap: 30px;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: cyan;
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  background: #e0ffff;
+}
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 10px;
+}
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  display: none;
+  cursor: pointer;
+}
+.cursor {
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1 }
+  50% { opacity: 0 }
+}
+

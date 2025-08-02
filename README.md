@@ -6,26 +6,57 @@ This repository contains the completed tasks for the **Prodigy InfoTech Web Deve
 ---
 
 ## 📋 Tasks
+### ✅ Task 1: Responsive Landing Page  
+📌 A modern and fully responsive landing page designed using HTML and CSS.  
+💡 Features:
+- Mobile-first design
+- Smooth layout and sections
+- Call-to-action buttons
 
-### ✅ Task 1: Personal Portfolio Website
-- Responsive portfolio site with sections like Home, Skills, Projects, Contact.
-- HTML, CSS, JavaScript
+📂 Folder: `/Task 1`
 
-### ✅ Task 2: Weather App
-- Uses OpenWeatherMap API to fetch real-time weather.
-- Input city name and get weather details dynamically.
+---
 
-### ✅ Task 3: Calculator
-- Functional calculator for basic arithmetic.
-- Interactive UI and error-handling.
+### ✅ Task 2: Web Stopwatch  
+📌 A functional stopwatch built using JavaScript, capable of tracking time accurately.  
+💡 Features:
+- Start, Stop, and Reset buttons
+- Real-time time display
 
-### ✅ Task 4: Todo Web App
-- Add, mark done, and delete tasks.
-- Data stored in browser's localStorage.
+📂 Folder: `/Task 2`
 
-### ✅ Task 5: Responsive Landing Page
-- Multi-section landing page with navigation.
-- Optimized for mobile and desktop.
+---
+
+### ✅ Task 3: Tic-Tac-Toe Game  
+📌 A 2-player Tic-Tac-Toe game implemented using basic DOM manipulation.  
+💡 Features:
+- Interactive 3x3 board
+- Win/draw detection
+- Reset game option
+
+📂 Folder: `/Task 3`
+
+---
+
+### ✅ Task 4: Personal Portfolio Website  
+📌 A personal portfolio website showcasing my skills, projects, and contact information.  
+💡 Features:
+- About Me section
+- Projects and contact form
+- Responsive design
+
+📂 Folder: `/Task 4`
+
+---
+
+### ✅ Task 5: Weather App  
+📌 A weather app that shows real-time weather data using the OpenWeatherMap API.  
+💡 Features:
+- Search by city
+- Displays temperature, humidity, and weather condition
+- Stylish and responsive UI
+
+📂 Folder: `/Task 5`
 
 ---
 
